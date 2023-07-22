@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!--Tabel dan Komentar-->
+    <!--Form HTML-->
 
     <head>
         <meta charset="UTF-8">
@@ -23,12 +23,49 @@
             <li>Alamat</li>
         </ul>
 
-        <!--digunakan untuk menulis komentar, komentar tidak akan ditampilkan dan hanya sebagai catatan saja -->
+        <!---->
     
         <h1>Kelas XI RPL</h1>
 
 
         <p>Belajar Pemrograman web menggunakan HTML</p>
+
+        <form action="" method="">
+            <fieldset>
+                <legend>Nama Siswa </legend>
+                <input type="text" placeholder="Nama Anda">
+            </fieldset>
+            
+            <br>
+            <fieldset>
+                <legend>Jurusan</legend>
+                <select name="" id="">
+                    <option value="">RPL</option>
+                    <option value="">DKV</option>
+                    <option value="">BD</option>
+                    <option value="">TKJ</option>
+    
+                </select>
+                
+            </fieldset>
+            <br> 
+            <fieldset>
+                <legend>Jenis Kelamin</legend>
+                <label for="">
+                <input type="radio" value="male">Laki-Laki
+                </label>
+                <label for="">
+                <input type="radio" value="female"> Perempuan
+                </label>
+
+            </fieldset>
+            <br>
+            <label for="">Kirim Data Saya </label>
+            <input type="submit">
+            <br> <br>
+
+        </form>
+
         <table border="1px">
             <thead>
                 <tr>
@@ -40,7 +77,7 @@
             </thead>
 
             <tbody>
-                <!--Untuk merge baris menggunakan rowspan, sedangkan untuk memerge kolom menggunakan colspan-->
+                
                 <tr>
                     <td rowspan="5">Pemrograman Web menggunakan HTML</td>
                     <td>Struktur HTML</td>
@@ -67,6 +104,8 @@
 
             </tbody>
         </table>
+
+
 
     </body>
 
