@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!--Image dan List HTML-->
+    <!--Tabel dan Komentar-->
 
     <head>
         <meta charset="UTF-8">
@@ -23,12 +23,50 @@
             <li>Alamat</li>
         </ul>
 
-        <!-- ul(unordered list) list dengan simbol, ol (ordered list) list dengan urutan angka -->
+        <!--digunakan untuk menulis komentar, komentar tidak akan ditampilkan dan hanya sebagai catatan saja -->
     
         <h1>Kelas XI RPL</h1>
 
 
         <p>Belajar Pemrograman web menggunakan HTML</p>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>Pelajaran</th>
+                    <th>Skill Completion</th>
+                    <th>Keterangan</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <!--Untuk merge baris menggunakan rowspan, sedangkan untuk memerge kolom menggunakan colspan-->
+                <tr>
+                    <td rowspan="5">Pemrograman Web menggunakan HTML</td>
+                    <td>Struktur HTML</td>
+                    <td rowspan="4">Selesai</td>
+                </tr>
+
+                <tr>
+                    <td>Title dan Meta Tag</td>
+                </tr>
+
+                <tr>
+                    <td>Heading dan Paragraf</td>
+                </tr>
+
+                <tr>
+                    <td>Image dan List</td>
+                </tr>
+
+                <tr>
+                    <td>Tabel dan Komentar</td>
+                    <td></td>
+                </tr>
+
+
+            </tbody>
+        </table>
 
     </body>
 
