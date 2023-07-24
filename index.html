@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!--Video Audio Canvas-->
+    <!--Selector CSS-->
 
     <head>
         <meta charset="UTF-8">
@@ -14,21 +14,14 @@
 
         <title>Web Kelas</title>
 
-        <!--Internal CSS-->
-        <style>
-            img {
-                width: 520px;
-                height: 250px;
-            }
-        </style>
     </head>
 
 
     <body>
-        <!--Inline CSS-->
-        <div style="margin-top: 200px;">
-            <nav>
-                <img src="img/smenda.png" alt="logo" >
+        
+        <div>
+            <nav class="header padding">
+                <img src="img/smenda.png" alt="logo" width="320" height="150">
                 <ul>
                     <li>Tentang Kami</li>
                     <li>Kontak</li>
@@ -37,9 +30,8 @@
                 </ul>
             </nav>
             
-    
             <!---->
-            <section>
+            <section id="deskripsi">
                 <h1>Kelas XI RPL</h1>
     
     
@@ -89,14 +81,13 @@
     
             </section>
             <br><br>
-
-            <section>
+            <section id="video">
                 <video src="video/Kurikulum Merdeka Pemrograman Web Kelas XI SMK RPL. 1.  Instalasi Vs Code (720p).mp4" width="520" height="220" controls>Contoh Video</video>
             </section>
 
             <br><br>
-            <section>
-                <audio src="audio/Indonesia_Raya.ogg" controls></audio>
+            <section id="audio">
+                <audio src="audio/sound.mp3" controls></audio>
             </section>
 
             <br><br>
@@ -104,6 +95,9 @@
             <section>
                 <canvas width="300" height="300"></canvas>
             </section>
+
+
+            <br><br>
 
             <footer>
                 <p>Made by Nando Abdillah Salam (27)</p>
