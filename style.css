@@ -52,11 +52,12 @@ body {
 #artikel {
     border: 2px solid black;
     margin-left: 10px;
-    margin-right: 10px;;
+    margin-right: 10px;
     padding : 20px 50px 20px 50px;
     display: flex;
     flex-direction: row; 
-    justify-content: space-around;
+    justify-content: center;
+    column-gap: 20px;
     
 }
 
@@ -65,6 +66,7 @@ body {
 .card {
     width: 200px;
     border: 2px solid blue;
+    text-align: center;
 }
 
 #logohtml {
