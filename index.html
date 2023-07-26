@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Vertikal Layout-->
+    <!-- Horizontal Layout-->
 
     <!--
         Catatan tentang position :
@@ -10,6 +10,25 @@
         absolute -> 0px dari tepi browser
         fixed -> pop up (melayang)
         sticky -> pop up melayang contoh jika jarak top 200px maka saat digeser ke bawah akan selalu berjarak 200px
+    -->
+
+    <!--
+        Catatan Vertikal dan Horizontal Layout :
+        Urutan tag 
+        <section> 
+            artikel 1
+            <article> //css -> display : flex; flex-direction: row/coloum;
+                <div clas=""> // tentukan width dan height;
+                    <h2> </h2>
+                    <img> </img>
+                    <p>artikel</p>
+                    untuk 
+                </div>
+            </article>
+            artikel 2
+            dst..
+
+        </section>
     -->
 
     <head>
@@ -28,9 +47,9 @@
 
     <body>
         
-        <div>
+        <div class="main">
             <nav class="header padding">
-                <img src="img/smenda.png" alt="logo" width="320" height="150">
+                <img src="img/smenda.png" alt="logo" width="320" height="150" id="smenda">
                 <ul>
                     <li>Tentang Kami</li>
                     <li>Kontak</li>
@@ -102,48 +121,49 @@
             <br><br>
 
             <section>
-                <article id="artikel1">
+                <article id="artikel">
                     <div class="card">
                         <h2>HTML</h2>
-                        <img src="img/HTML5_logo_and_wordmark.svg.png" alt="">
+                        <img src="img/HTML5_logo_and_wordmark.svg.png" alt="" id="logohtml">
                         <p>
                              HTML adalah, (HyperText Markup Language) sebuah bahasa standar yang digunakan oleh browser Internet untuk membuat halaman dan dokumen pada sebuah Web yang kemudian dapat diakses dan dibaca layaknya sebuah artikel. HTMLjuga dapat digunakan sebagai link link antara file-file dalam situs atau dalam komputer dengan menggunakan localhost, atau link yang menghubungkan antar situs dalam dunia internet.
                         </p> 
                     </div>
                     <div class="card">
                         <h2>HTML</h2>
-                        <img src="img/HTML5_logo_and_wordmark.svg.png" alt="">
+                        <img src="img/HTML5_logo_and_wordmark.svg.png" alt="" id="logohtml">
                         <p>
                              HTML adalah, (HyperText Markup Language) sebuah bahasa standar yang digunakan oleh browser Internet untuk membuat halaman dan dokumen pada sebuah Web yang kemudian dapat diakses dan dibaca layaknya sebuah artikel. HTMLjuga dapat digunakan sebagai link link antara file-file dalam situs atau dalam komputer dengan menggunakan localhost, atau link yang menghubungkan antar situs dalam dunia internet.
                         </p> 
                     </div>
                     <div class="card">
                         <h2>HTML</h2>
-                        <img src="img/HTML5_logo_and_wordmark.svg.png" alt="">
+                        <img src="img/HTML5_logo_and_wordmark.svg.png" alt="" id="logohtml">
                         <p>
                              HTML adalah, (HyperText Markup Language) sebuah bahasa standar yang digunakan oleh browser Internet untuk membuat halaman dan dokumen pada sebuah Web yang kemudian dapat diakses dan dibaca layaknya sebuah artikel. HTMLjuga dapat digunakan sebagai link link antara file-file dalam situs atau dalam komputer dengan menggunakan localhost, atau link yang menghubungkan antar situs dalam dunia internet.
                         </p> 
                     </div>
                 </article>
+                <br><br>
 
-                <article id="artikel2">
+                <article id="artikel">
                     <div class="card">
                         <h3>Tambahan</h3>
-                        <img src="img/CI.png" alt="">
+                        <img src="img/CI.png" alt="" id="logocss">
                         <p>
                             Cascading Style Sheet (CSS) merupakan salah satu bahasa pemrograman web untuk mengendalikan beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa file. Pada umumnya CSS dipakai untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML.
                         </p>
                     </div>
                     <div class="card">
                         <h3>Tambahan</h3>
-                        <img src="img/CI.png" alt="">
+                        <img src="img/CI.png" alt="" id="logocss">
                         <p>
                             Cascading Style Sheet (CSS) merupakan salah satu bahasa pemrograman web untuk mengendalikan beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa file. Pada umumnya CSS dipakai untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML.
                         </p>
                     </div>
                     <div class="card">
                         <h3>Tambahan</h3>
-                        <img src="img/CI.png" alt="">
+                        <img src="img/CI.png" alt="" id="logocss">
                         <p>
                             Cascading Style Sheet (CSS) merupakan salah satu bahasa pemrograman web untuk mengendalikan beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa file. Pada umumnya CSS dipakai untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML.
                         </p>

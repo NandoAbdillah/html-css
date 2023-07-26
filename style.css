@@ -2,12 +2,12 @@ body {
     background-color: #3E88A5;
 }
 
-img {
+#smenda{
     width: 320px;
     height: 144px
 }
 
-div {
+.main {
     border: 2px solid red;
 }
 
@@ -36,7 +36,7 @@ div {
     background-color: #18363E;
     margin: 20px 360px 0px 360px;
     padding: 5px 0px 5px 0px;
-    position: sticky;
+    position: static;
     top: 200px;
     
 }
@@ -49,8 +49,30 @@ div {
     
 }
 
-.card {
+#artikel {
     border: 2px solid black;
-    margin-left: 25px;
+    margin-left: 10px;
+    margin-right: 10px;;
+    padding : 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    
 }
+
+
+
+.card {
+    width: 200px;
+    border: 2px solid blue;
+}
+
+#logohtml {
+    width: 60px;
+}
+
+#logocss {
+    width: 60px;
+}
+
 
