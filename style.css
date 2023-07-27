@@ -9,6 +9,9 @@ body {
 
 .main {
     border: 2px solid red;
+    width: 900px;
+    margin: auto;
+    
 }
 
 .header {
@@ -32,10 +35,12 @@ body {
 }
 
 #video {
+    width: auto;
     border: 2px solid white;
     background-color: #18363E;
-    margin: 20px 360px 0px 360px;
-    padding: 5px 0px 5px 0px;
+    margin: 20px 60px 0px 60px;
+    padding: auto;
+    text-align: center;
     position: static;
     top: 200px;
     
@@ -44,8 +49,8 @@ body {
 #audio {
     border: 2px solid white;
     background-color: #18363E ;
-    margin : 20px 420px 0px 420px;
-    padding: 5px 15px 5px 15px ;
+    margin : 20px 20px 0px 20px;
+    text-align: center;
     
 }
 
@@ -64,7 +69,7 @@ body {
 
 
 .card {
-    width: 200px;
+    width:25%;
     border: 2px solid blue;
     text-align: center;
 }
