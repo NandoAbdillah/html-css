@@ -76,6 +76,8 @@ body {
     border: 2px solid blue;
     text-align: center;
     background-image: linear-gradient(to left, red,yellow,blue);
+    padding: 100px;
+    box-sizing: border-box;
     
     
     
