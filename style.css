@@ -105,8 +105,29 @@ li:hover {
 }
 
 p::first-letter {
-    //first-line : untuk satu kata
+    //first-line : untuk satu kata;
     font-size: xx-large;
 }
 
+@media only screen and (max-width:500px){
+    *{
+        margin : 0px;
+        padding: 0px;
+    }
+
+    .tempat {
+        width: 80%;
+    }
+
+    .lebar {
+        width: 100%;
+    }
+
+    #artikel {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+}
 
