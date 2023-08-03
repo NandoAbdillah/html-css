@@ -97,4 +97,14 @@ body {
     margin-left: -5px;
 }
 
+li:hover {
+    background-color: blue;
+    color: white;
+}
+
+p::first-letter {
+    //first-line : untuk satu kata
+    font-size: xx-large;
+}
+
 
