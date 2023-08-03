@@ -72,14 +72,13 @@ body {
 
 
 .card {
+    color: white;
     width:25%;
     border: 2px solid blue;
     text-align: center;
-    background-image: linear-gradient(to left, red,yellow,blue);
-    padding: 100px;
+    background-image: linear-gradient(to bottom left , red,pink,blue);
+    padding: 15px;
     box-sizing: border-box;
-    
-    
     
 }
 
@@ -89,6 +88,13 @@ body {
 
 #logocss {
     width: 60px;
+}
+
+.display {
+    border: 2px solid green;
+    display : inline;
+    padding :20px;
+    margin-left: -5px;
 }
 
 
